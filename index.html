@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Ultimate Game Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">🎮 GameZone</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Discover & Play Your Favorite Games</h1>
+        <p>Explore popular games, read details, and dive into your favorite worlds.</p>
+        
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for Minecraft, Roblox, Subnautica...">
+        </div>
+    </section>
+
+    <main class="container" id="games">
+        <h2>Popular Games</h2>
+        <div class="game-grid" id="game-grid">
+
+            <div class="game-card" data-title="minecraft">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="card-body">
+                    <span class="badge">Sandbox / Survival</span>
+                    <h3>Minecraft</h3>
+                    <p>Build, explore, and survive in an infinite blocky world full of endless possibilities.</p>
+                    <button class="play-btn">Launch Game</button>
+                </div>
+            </div>
+
+            <div class="game-card" data-title="roblox">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="card-body">
+                    <span class="badge">Multiplayer Platform</span>
+                    <h3>Roblox</h3>
+                    <p>An ultimate virtual universe where you can create, share experiences with friends, and be anything.</p>
+                    <button class="play-btn">Launch Game</button>
+                </div>
+            </div>
+
+            <div class="game-card" data-title="subnautica">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80');"></div>
+                <div class="card-body">
+                    <span class="badge">Sci-Fi Survival</span>
+                    <h3>Subnautica</h3>
+                    <p>Descend into the depths of an alien underwater world filled with wonder and danger.</p>
+                    <button class="play-btn">Launch Game</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 GameZone. Built for gamers everywhere.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
